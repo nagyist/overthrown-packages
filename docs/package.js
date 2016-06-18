@@ -8,6 +8,11 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.3.3.1');
-  api.use('ecmascript');
-  api.mainModule('docs.js');
+  api.use([
+    'ecmascript',
+    'less',
+    'templating'
+  ]);
+  //api.addFiles('docs.html');
+  api.mainModule('docs.js', 'client');
 });
