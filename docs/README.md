@@ -1,1 +1,1 @@
-Packages for OverThrown.  http://overthrown.io
+Docs for OverThrown.  http://overthrown.io
