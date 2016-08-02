@@ -1,6 +1,6 @@
 Package.describe({
   name: 'danimal:overthrown-docs',
-  version: '0.0.2',
+  version: '1.0.0',
   summary: 'Docs for OverThrown. http://overthrown.io',
   git: 'https://github.com/dan335/overthrown-packages',
   documentation: 'README.md'
@@ -14,6 +14,5 @@ Package.onUse(function(api) {
     'templating',
     'markdown'
   ]);
-  //api.addFiles('docs.html');
   api.mainModule('docs.js', 'client');
 });
