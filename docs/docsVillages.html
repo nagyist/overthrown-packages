@@ -1,5 +1,11 @@
 <template name="docsVillages">
 {{#markdown}}
-Villages are built by workers.  Workers can be killed by enemy soldiers.  If they're killed they are created again automatically at player's castle.  Max 3 workers per player.  Workers take one turn to build and do not cost any gold.  Villages collect resources from the 9 squares surrounding and under the village.  Brown squares produce nothing.  Light green squares produce 1 gold and dark green squares produce 3 gold.
+Villages collect resources from the surrounding squares and produce soldiers.
+
+Use a worker to build a village but be careful, workers can be killed by enemy soldiers.  If they're killed they are created again automatically at player's castle.  Max {{_s.numWorkersPerPlayer}} workers per player.
+
+Workers build villages instantly and do not cost any gold.  Villages collect resources from the 9 squares surrounding and under the village.  Brown squares produce nothing.  Light green squares produce 2 gold and dark green squares produce 6 gold.
+
+Villages can hire soldiers and can be used as forward bases.
 {{/markdown}}
 </template>
