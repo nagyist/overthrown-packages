@@ -8,6 +8,8 @@ import './docsVillages.html';
 import './docsTurns.html';
 import './docsLinks.html';
 import './docsHiring.html';
+import './docsUnits.html';
+import './docsApps.html';
 import './docsBlock.js';
 import './docs.less';
 
